@@ -23,9 +23,38 @@ https://github.com/huggingface/pytorch-pretrained-BERT
 
 
 Ussage:: 
+output_dir set as per your directory.
+depends on need of  accuracy change the value of num_train_epochs.
+task_name
 Download the data from the below websites.
+
 Datasets:: https://www.nyu.edu/projects/bowman/xnli/
            https://sites.google.com/view/germeval2017-absa/data
+           https://sites.google.com/site/iggsahome/downloads
+  
+           
+Keep the data in data_dir. Right now script supports .tsv and .xml file formatt.
+tsv file formatt as follows
+SportBrÃ¼che am Becken und an den Rippen so die Nachricht des Crashpiloten.	Sport
+sentence(SportBrÃ¼che am Becken und an den Rippen so die Nachricht des Crashpiloten) and category(Sport) should be separated by a tab.
+
+
+Format of xml file is given in the data folder. Check the sampleXml.xml file for the format.
+
+Training:: 
+set MODEL_SAVED_LOAD as False 
+set do_train as True
+set do_eval as False
+Once the model is trained fully,it will be stred under output folder as bin file format.
+
+Evaluating::
+set MODEL_SAVED_LOAD as True 
+set do_train as False
+set do_eval as True
+
+previously saved model will be loaded find evaluation can be done.
+
+
            
          
            
