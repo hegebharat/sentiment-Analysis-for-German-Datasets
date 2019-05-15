@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Documents>
+	<Document id="http://www.facebook.com/419976584711237/posts/1008867879155435?comment\_id=1008887809153442#419976584711237\_1008867879155435\_1008887809153442">
+        <Opinions>
+            <Opinion category="Allgemein#Haupt" from="0" to="0" target="NULL" polarity="neutral"/>
+        </Opinions>
+        <relevance>true</relevance>
+        <sentiment>neutral</sentiment>
+        <text>Re: Du lebst schon lange in BÜNDE, wenn... Alles vor der Bahn ist Südlengern bis Höhe Straßenverkehrsamt/ Autobahnbrücke.</text>
+    </Document>
+    <Document id="http://www.t-online.de/regionales/id\_74098644/unfall-am-bahnuebergang.html">
+        <Opinions>
+            <Opinion category="Sonstige_Unregelmässigkeiten#Haupt" from="0" to="6" target="Unfall" polarity="negative"/>
+            <Opinion category="Sonstige_Unregelmässigkeiten#Haupt" from="30" to="36" target="Unfall" polarity="negative"/>
+            <Opinion category="Sonstige_Unregelmässigkeiten#Haupt" from="213" to="219" target="Unfall" polarity="negative"/>
+        </Opinions>
+        <relevance>true</relevance>
+        <sentiment>negative</sentiment>
+        <text>Unfall am Bahnübergang Aukrug Unfall am Bahnübergang 21.05.2015, 20:33 Uhr | presseportal.de, presseportal.de Aukrug (ots) - Heute Nachmittag gegen 17.00 Uhr kam es auf der Bahnstrecke Neumünster - Heide zu einem Unfall an einem Bahnübergang bei Aukrug. Ein Zug der Nordb</text>
+    </Document>
+</Documents>
