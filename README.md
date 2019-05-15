@@ -54,6 +54,10 @@ set do_eval as True
 
 previously saved model will be loaded find evaluation can be done.
 
+For example if you want to classify into 10 category go to
+num_labels_task dictionary in code and set the corresponding item value to 10.
+class BBC5Processor support xml format all other support tsv format.
+
 
            
          
