@@ -7,6 +7,7 @@ PyTorch pretrained bert model.
 pip install pytorch-pretrained-bert
 
 
+
 Paper:https://arxiv.org/abs/1810.04805
 
 Citation.
@@ -19,5 +20,15 @@ Citation.
 
 Huggingface implimentation is taken as refference for the pytorch implimentation.
 https://github.com/huggingface/pytorch-pretrained-BERT
+
+
+Ussage:: 
+Download the data from the below websites.
+Datasets:: https://www.nyu.edu/projects/bowman/xnli/
+           https://sites.google.com/view/germeval2017-absa/data
+           
+         
+           
+         
 
 
